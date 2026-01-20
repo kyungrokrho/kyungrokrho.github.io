@@ -447,9 +447,18 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/news/ex_announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-start-the-internship-at-autonomous-robot-intelligence-labarory-aril",
+          title: 'Start the internship at Autonomous Robot Intelligence Labarory (ARIL)',
+          description: "",
+          section: "News",},{id: "news-start-my-master-degree-at-aril",
+          title: 'Start my master degree at ARIL.',
+          description: "",
+          section: "News",},{id: "news-start-my-personal-webpage",
+          title: 'Start my personal webpage',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
