@@ -35,4 +35,4 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. 
 -->
 
-I am 1st-yead MS student at department of electrical and computer engineering[ee_homepage](https://ece.snu.ac.kr/en) at Seoul National University, advised by Seong-Woo Kim[ARIL](https://arisnu.squarespace.com/). I am interested in humanoid robot and AI. I received Bachelor degree from the department of aerospace engineering[ae_homepage](https://aerospace.snu.ac.kr/en) at Seoul National University also.
+I am 1st-year MS student at [department of electrical and computer engineering](https://ece.snu.ac.kr/en) at Seoul National University, advised by [Seong-Woo Kim](https://arisnu.squarespace.com/). I am interested in humanoid robot and AI. I received Bachelor degree from the [department of aerospace engineering](https://aerospace.snu.ac.kr/en) at Seoul National University also.
