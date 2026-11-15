@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kyung Rok Rho, M.S. student at Seoul National University working on humanoid whole-body control.">
+  <title>Kyung Rok Rho</title>
+  <link rel="stylesheet" href="assets/css/homepage.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top">Kyung Rok Rho</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#demos">Demos</a>
+        <a href="#teaching">Teaching</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell" id="main" tabindex="-1">
+    <section class="intro" id="top" aria-labelledby="name">
+      <div class="intro-copy">
+        <p class="affiliation">M.S. Student · Seoul National University</p>
+        <h1 id="name">Kyung Rok Rho</h1>
+        <p class="intro-lead">I study whole-body control for humanoid robots, with interests in locomotion and manipulation.</p>
+        <p class="bio">I’m advised by <a href="https://arisnu.squarespace.com/">Prof. Seong-Woo Kim</a> in the <a href="https://ece.snu.ac.kr/en">Department of Electrical and Computer Engineering</a>. I earned my bachelor’s degree in Aerospace Engineering at SNU.</p>
+        <div class="intro-links">
+          <a href="https://github.com/kyungrokrho">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://arisnu.squarespace.com/">Research Lab <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <img class="portrait" src="assets/img/photo_kyungrokrho.jpg" width="686" height="510" alt="Kyung Rok Rho">
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research &amp; Projects</h2>
+
+      <article class="project featured">
+        <div class="project-copy">
+          <p class="metadata">First author · Under review at ICRA 2027</p>
+          <h3>CarryMimic</h3>
+          <p class="project-summary">Stable whole-body object carrying with a humanoid robot.</p>
+          <p>I designed a force-closure reward that encourages grasps capable of withstanding the forces and torques of a carrying motion. I developed and evaluated the method in simulation and ran the hardware experiments on a Unitree G1.</p>
+        </div>
+        <div class="media-placeholder">
+          <span class="media-kind">Video to add</span>
+          <p>Unitree G1 carrying a box overhead or picking it up, turning, and setting it down.</p>
+        </div>
+      </article>
+
+      <article class="project featured">
+        <div class="project-copy">
+          <p class="metadata">Vision-language manipulation</p>
+          <h3>LIMBO</h3>
+          <p class="project-summary">Robot manipulation from natural-language instructions.</p>
+          <p>I worked on the manipulation module and applied the same vision-language approach to a robotic arm and a humanoid arm. The demos included picking up a hammer and placing an apple to the left of a banana.</p>
+        </div>
+        <div class="media-pair">
+          <div class="media-placeholder">
+            <span class="media-kind">Robotic arm</span>
+            <p>Video of a spoken or written command and the arm’s response.</p>
+          </div>
+          <div class="media-placeholder">
+            <span class="media-kind">Humanoid arm</span>
+            <p>Video of the humanoid executing an object-manipulation command.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="project featured">
+        <div class="project-copy">
+          <p class="metadata">Ongoing · Software team lead</p>
+          <h3>Huphy</h3>
+          <p class="project-summary">A humanoid robot built in-house by our lab.</p>
+          <p>I lead the software team and train control policies for the robot.</p>
+        </div>
+        <div class="media-placeholder">
+          <span class="media-kind">Photo or video to add</span>
+          <p>A full-body photo of Huphy or a short clip of a hardware motion test.</p>
+        </div>
+      </article>
+
+      <div class="collaborations">
+        <article>
+          <p class="metadata">Second author · Submitted to ICRA 2027</p>
+          <h3>BicycleMan</h3>
+          <p>I advised on training design for a humanoid bicycling project.</p>
+        </article>
+        <article>
+          <p class="metadata">Co-first author · Dataset release in preparation</p>
+          <h3>Pangyo Motion Capture Dataset</h3>
+          <p>I handled data conversion, preprocessing, and English captioning for a text-to-motion dataset built from optical motion capture.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="demos" aria-labelledby="demos-title">
+      <h2 id="demos-title">Robotics Demos</h2>
+      <div class="demo-grid">
+        <article class="demo">
+          <div class="media-placeholder">
+            <span class="media-kind">Video to add</span>
+            <p>Unitree G1 executing a VideoMimic motion on hardware.</p>
+          </div>
+          <h3>VideoMimic on Unitree G1</h3>
+          <p>I deployed VideoMimic on a physical G1 during my first experiments with the platform.</p>
+        </article>
+        <article class="demo">
+          <div class="media-placeholder">
+            <span class="media-kind">Video to add</span>
+            <p>The robot scooping and handing out popcorn.</p>
+          </div>
+          <h3>Popcorn-serving robot</h3>
+          <p>Our team used TWIST2 to demonstrate a robot scooping and serving popcorn.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section teaching" id="teaching" aria-labelledby="teaching-title">
+      <h2 id="teaching-title">Teaching</h2>
+      <article>
+        <p class="metadata">Lead teaching assistant · Fall 2025</p>
+        <h3>How to Make a Robot with Artificial Intelligence</h3>
+        <p>I built most of the ROS 2 and Gazebo framework for CRAIP, the course’s final project on language-guided navigation with a simulated Unitree Go1.</p>
+        <a class="text-link" href="https://github.com/kyungrokrho/make_ai_robot">CRAIP repository <span aria-hidden="true">↗</span></a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>Kyung Rok Rho</span>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
